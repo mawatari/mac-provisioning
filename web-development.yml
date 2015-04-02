@@ -26,10 +26,16 @@
       - openssl
       - { name: openssl, state: linked, install_options: force }
       - ansible
-      - bash-completion
       - git
+      - heroku-toolbelt
+      - peco
+      - nvm
       - rbenv
       - ruby-build
+      - the_silver_searcher
+      - vim
+      - zsh
+      - zsh-completions
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -46,9 +52,11 @@
       - firefox
       - google-chrome
       - google-japanese-ime
-      - intellij-idea
+      - iterm2
       - karabiner
       - phpstorm
+      - rubymine
       - slack
+      - sublime-text
       - vagrant
       - virtualbox
