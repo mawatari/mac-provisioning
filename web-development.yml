@@ -27,6 +27,7 @@
       - { name: openssl, state: linked, install_options: force }
       - ansible
       - git
+      - git-flow
       - heroku-toolbelt
       - peco
       - nvm
