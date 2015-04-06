@@ -39,6 +39,7 @@
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
+      - caskroom/homebrew-versions
 
     # Managed Homebrew Cask packages.
     #
@@ -49,7 +50,7 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - firefox
+      - firefox-ja
       - google-chrome
       - google-japanese-ime
       - iterm2
