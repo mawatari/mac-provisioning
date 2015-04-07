@@ -37,6 +37,7 @@
       - vim
       - zsh
       - zsh-completions
+      - zsh-syntax-highlighting
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
