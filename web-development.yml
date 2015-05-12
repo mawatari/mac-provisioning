@@ -41,7 +41,7 @@
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
-      - caskroom/homebrew-versions
+      - caskroom/versions
 
     # Managed Homebrew Cask packages.
     #
