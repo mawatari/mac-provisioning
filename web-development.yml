@@ -53,6 +53,7 @@
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
       - firefox-ja
+      - flash
       - google-chrome
       - google-japanese-ime
       - iterm2
