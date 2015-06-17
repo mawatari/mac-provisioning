@@ -76,7 +76,7 @@ class CallbackModule(object):
                 status = "Provisioning failed!"
                 voice = "-v Hysterical ha ha ha,"
 
-            cmd = "osascript -e 'display notification \"{}\" with title \"{}\"'"
-            cmd = cmd.format(summary, status)
+            cmd = "osascript -e 'display notification \"%s %s\" with title \"%s\"'"
+            cmd = cmd % (host, summary, status)
             subprocess.call(cmd, shell=True)
             subprocess.call("say %s %s" % (voice, status), shell=True)
