@@ -18,3 +18,4 @@ node_modules
 Thumbs.db
 .tmpoj
 .vagrant
+vendor
