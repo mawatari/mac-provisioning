@@ -1,0 +1,11 @@
+---
+- name: Installs latest stable version of Ruby
+  shell: rbenv install -s $(rbenv install -l | grep -v - | tail -1)
+  register: result
+  changed_when: '"Installed ruby" in result.stderr'
+
+- name: Switch to latest stable version of Ruby
+  shell: rbenv global $(rbenv install -l | grep -v - | tail -1)
+
+- name: Installs latest available version of bundler.
+  gem: name=bundler state=latest

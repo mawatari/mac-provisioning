@@ -5,6 +5,7 @@
   roles:
     - homebrew
     - homebrew-cask
+    - ruby-build
   vars:
     # Tap external Homebrew repositories.
     #
