@@ -1,5 +1,5 @@
 Mac provisioning by Homebrew and Ansible
-============
+========================================
 
 
 Usage
@@ -70,6 +70,17 @@ Example Playbook
       - slack
       - vagrant
       - virtualbox
+```
+
+
+Testing
+-------
+
+You can also test that packages are installed.
+
+```
+bundle install
+bundle exec rake
 ```
 
 
