@@ -33,7 +33,6 @@
       - peco
       - nvm
       - rbenv
-      - rbenv-gem-rehash
       - ruby-build
       - the_silver_searcher
       - vim
